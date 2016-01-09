@@ -1,0 +1,25 @@
+var mongodb = require ('mongodb');
+var server = new mongodb.Server('localhost', 27017);
+var client = mongodb.MongoClient;
+var url = 'mongodb://localhost:27017/chat';
+
+client.connect(url, function(err, db) {
+    if (err){
+        console.log('Error: ' + err);
+    }
+    console.log("Connected correctly to server");
+
+    console.log(db);
+    var users = db.collection('users');
+
+    users.insertOne({name: 'john', pass: '123'}, function(err, user){
+        if (err){
+            console.log('Error: ' + err);
+        }
+        console.log(user);
+    });
+
+    //db.close();
+});
+
+

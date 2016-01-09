@@ -1,0 +1,14 @@
+{
+  "name": "mondodbmongoosehomework",
+  "version": "1.0.0",
+  "description": "chat modules",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Az",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.3.4"
+  }
+}

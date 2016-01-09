@@ -1,0 +1,12 @@
+{
+  "name": "WebServer",
+  "version": "0.0.0",
+  "description": "WebServer",
+  "main": "server.js",
+  "author": {
+    "name": "Boyan"
+  },
+  "dependencies": {
+    "jsdom": "^7.2.2"
+  }
+}

@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mongoose.d.ts" level="application" />
+    <orderEntry type="library" name="02 MongoDB and Mongoose node_modules" level="project" />
   </component>
 </module>

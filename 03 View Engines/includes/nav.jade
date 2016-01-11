@@ -1,0 +1,10 @@
+div(class="navbar navbar-default navbar-fixed-top")
+   .container
+       .navbar-header
+           a.navbar-brand(href='/') View Engines Homework
+   #navbar-main(class="navbar-collapse", aria-expanded=false)
+       ul(class="nav navbar-nav")
+           each item in nav
+               li
+                a(href= item.url)
+                    = item.title

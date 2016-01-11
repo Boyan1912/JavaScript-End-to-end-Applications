@@ -1,0 +1,16 @@
+table(class="table table-striped table-hover", style={'margin-top': '150px;'})
+    thead
+        tr(class="danger")
+            th #
+            th
+                | Product
+            th
+                | Price
+            th
+    tbody
+    if products
+     each item, index in products
+        tr(class="warning")
+            td= index + 1
+            td= item.model
+            td= item.price
